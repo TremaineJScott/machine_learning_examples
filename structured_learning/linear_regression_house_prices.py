@@ -6,7 +6,7 @@ from sklearn.preprocessing import OneHotEncoder
 from sklearn.compose import ColumnTransformer
 
 # Load the data
-file_path = 'C:\\Users\\ScottTremaine\\source\\repos\\MachineLearning\\structured_learning\\house_prices_dataset.csv'  
+file_path = 'structured_learning/mnt/data/house_prices_dataset.csv'  
 data = pd.read_csv(file_path)
 
 # One Hot Encoding for the 'Location' column
